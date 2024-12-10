@@ -23,7 +23,7 @@ const Teacher_login = () => {
                 navigate('/AddProfile');
             }
         } else if (userRole === 'student') {
-            navigate('/Postpage');
+            navigate('/student_dashboard');
         }
     };
 
@@ -58,7 +58,7 @@ const handleLogin = async (e) => {
           navigate('/AddProfile');  // Navigate to Add Profile Page
       }}
       else{
-        navigate('/Postpage')
+        navigate('/student_dashboard')
       }
 
       // Reset the form after a successful login
@@ -148,3 +148,4 @@ const handleLogin = async (e) => {
 };
 
 export default Teacher_login;
+

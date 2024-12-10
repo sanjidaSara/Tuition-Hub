@@ -1,0 +1,5 @@
+git remote add origin https://github.com/labony01783/Practice123.git
+git branch -M main
+git remote add origin https://github.com/labony01783/Practice123.git
+git branch -M main
+git push -u origin main
